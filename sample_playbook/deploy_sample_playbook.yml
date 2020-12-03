@@ -1,0 +1,9 @@
+---
+- name: My sample playbook 
+  hosts: all
+  gather_facts: False
+  tasks:
+    - name: Simple task Run
+      debug:
+        msg: "This is a test message from my sample playbook"
+  
